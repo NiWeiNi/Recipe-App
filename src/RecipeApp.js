@@ -7,7 +7,7 @@ class RecipeApp extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Recipe title="Pasta"/>
+          <Recipe title="Pasta" ingredients={['flour', 'water']}/>
         </header>
       </div>
     );
