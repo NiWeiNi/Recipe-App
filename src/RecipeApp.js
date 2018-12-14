@@ -7,7 +7,12 @@ class RecipeApp extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Recipe title="Pasta" ingredients={['flour', 'water']}/>
+          <Recipe
+            title="Pasta"
+            ingredients={['flour', 'water']}
+            instructions="Mix ingredients"
+            img="spaghetti.jpg"
+          />
         </header>
       </div>
     );
